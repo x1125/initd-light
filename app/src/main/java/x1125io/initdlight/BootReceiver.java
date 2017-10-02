@@ -18,7 +18,7 @@ public class BootReceiver extends BroadcastReceiver {
 
                 ProcessRunner pr = new ProcessRunner();
                 String fullFilePath = context.getFilesDir().toString() + "/" + file;
-                int exitCode = pr.Run(new String[] { "su", "-c", "sh " + fullFilePath });
+                int exitCode = pr.Run(new String[] { "su", "-c", fullFilePath });
 
                 if (exitCode == 0) {
                     Log.d(TAG, "started " + file);
