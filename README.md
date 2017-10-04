@@ -11,7 +11,7 @@ After installing the App, you'll have to run it at least once for the BootReceiv
 
 It will also show you where to place your scripts, which is usually `/data/user/0/x1125io.initdlight/files`.
 
-Every script in there will be launched via `su -c sh [file]`.
+Every script in there will be launched via `su -c [file]`.
 
 ## Debugging
 
