@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 for (String file: v.getContext().getFilesDir().list()) {
                     ProcessRunner pr = new ProcessRunner();
                     String fullFilePath = v.getContext().getFilesDir().toString() + "/" + file;
-                    int exitCode = pr.Run(new String[] { "su", "-c", "sh", fullFilePath });
+                    int exitCode = pr.Run(new String[] { "su", "-c", fullFilePath });
                     addAppText(String.format(
                             "%s, exit: %d, stdout: %s, stderr: %s",
                             fullFilePath,
