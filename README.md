@@ -13,6 +13,10 @@ It will also show you where to place your scripts, which is usually `/data/user/
 
 Every script in there will be launched via `su -c [file]`.
 
+## Current release
+
+You can fetch the current stable release directly as APK from https://github.com/x1125/initd-light/blob/master/app/release/app-release.apk.
+
 ## Debugging
 
 You can use the "TEST SCRIPTS"-Button within the App to run all the scripts like on a startup.
