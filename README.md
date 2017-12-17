@@ -15,7 +15,7 @@ Every script in there will be launched via `su -c [file]`.
 
 ## Current release
 
-You can fetch the current stable release directly as APK from https://github.com/x1125/initd-light/blob/master/app/release/app-release.apk.
+You can fetch the current stable release directly as APK from https://github.com/x1125/initd-light/blob/master/app/app-release.apk.
 
 ## Debugging
 
